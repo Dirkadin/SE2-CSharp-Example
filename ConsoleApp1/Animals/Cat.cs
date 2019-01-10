@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Animals
 {
-    public class Cat : Animal, Mamal
+    public class Cat : Animal, Mammal
     {
         public Cat(string name) : base (name)
         {
 
         }
 
-        public bool isMamal()
+        public bool isMammal()
         {
             return true;
         }

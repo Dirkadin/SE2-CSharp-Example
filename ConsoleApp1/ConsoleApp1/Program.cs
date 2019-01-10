@@ -19,8 +19,8 @@ namespace ConsoleApp1
 
             foo.makeSoudnd();
 
-            if (foo.isMamal()) {
-                Console.WriteLine("I am a mamal");
+            if (foo.isMammal()) {
+                Console.WriteLine("I am a mammal");
             }
 
             Console.ReadKey();

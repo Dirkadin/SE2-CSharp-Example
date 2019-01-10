@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Animals
 {
-    public interface Mamal
+    public interface Mammal
     {
-        bool isMamal();
+        bool isMammal();
 
     }
 }
