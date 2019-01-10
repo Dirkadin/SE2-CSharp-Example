@@ -6,14 +6,17 @@ using System.Threading.Tasks;
 
 namespace Animals
 {
-    public class Cat : Animal
+    public class Cat : Animal, Mamal
     {
         public Cat(string name) : base (name)
         {
 
         }
 
-
+        public bool isMamal()
+        {
+            return true;
+        }
 
         public override void makeSoudnd()
         {

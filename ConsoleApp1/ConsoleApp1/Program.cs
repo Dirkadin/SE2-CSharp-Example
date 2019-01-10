@@ -18,6 +18,11 @@ namespace ConsoleApp1
             Console.WriteLine(foo.Name);
 
             foo.makeSoudnd();
+
+            if (foo.isMamal()) {
+                Console.WriteLine("I am a mamal");
+            }
+
             Console.ReadKey();
         }
     }
