@@ -13,9 +13,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Animal foo = new Animal("Scooby Doo");
+            Cat foo = new Cat("Scooby Doo");
 
             Console.WriteLine(foo.Name);
+
+            foo.makeSoudnd();
             Console.ReadKey();
         }
     }

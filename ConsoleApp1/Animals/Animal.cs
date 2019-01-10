@@ -26,5 +26,11 @@ namespace Animals
                 this.name = value;
             }
         }
+
+        public virtual void makeSoudnd()
+        {
+            Console.WriteLine("Default sound");
+        }
+
     }
 }
