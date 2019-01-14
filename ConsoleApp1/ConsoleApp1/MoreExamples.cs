@@ -12,5 +12,10 @@ namespace ConsoleApp1
         {
             return (int)providedDouble;
         }
+
+        public static Double castIntToDouble(int providedInt)
+        {
+            return (Double)providedInt;
+        }
     }
 }
