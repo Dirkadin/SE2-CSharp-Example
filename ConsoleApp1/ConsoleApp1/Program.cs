@@ -23,6 +23,9 @@ namespace ConsoleApp1
                 Console.WriteLine("I am a mammal");
             }
 
+            Double myDouble1 = 54.898989;
+            Console.WriteLine("The double " + myDouble1 + " is " + MoreExamples.castDouleToInt(myDouble1) + " when casted to an int");
+
             Console.ReadKey();
         }
     }
