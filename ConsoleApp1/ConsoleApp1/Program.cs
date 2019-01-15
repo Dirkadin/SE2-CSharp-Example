@@ -13,7 +13,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Cat foo = new Cat("Scooby Doo");
+            Cat foo = new Cat("Cat");
 
             Console.WriteLine(foo.Name);
 
