@@ -14,13 +14,16 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Cat foo = new Cat("Cat");
+            Dog dog = new Dog("Dog");
 
             Console.WriteLine(foo.Name);
+            Console.WriteLine(dog.Name);
 
             foo.makeSoudnd();
+            dog.makeSoudnd();
 
-            if (foo.isMammal()) {
-                Console.WriteLine("I am a mammal");
+            if (foo.isMammal() && dog.isMammal()) {
+                Console.WriteLine("We are mammals");
             }
 
             Double myDouble1 = 54.898989;
